@@ -1,11 +1,11 @@
 streamlit
 python-dotenv
 langchain
-langchain-groq
+langchain-core
 langchain-community
+langchain-groq
 langchain-huggingface
 langchain-text-splitters
-langchain-core
 faiss-cpu
 pypdf
 sentence-transformers
