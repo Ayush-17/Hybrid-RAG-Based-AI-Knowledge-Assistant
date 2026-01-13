@@ -9,8 +9,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.output_parsers import StrOutputParser
-from langchain.chains import create_stuff_documents_chain
-
+from langchain.chains.combine_documents import create_stuff_documents_chain
 # --- 1. SETUP & LANGSMITH TRACING ---
 load_dotenv()
 
