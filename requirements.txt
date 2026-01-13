@@ -13,7 +13,8 @@ sentence-transformers>=3.0.0
 # --- Environment & Utils ---
 python-dotenv>=1.0.0
 
-# --- Optional for Web Serving ---
+# --- Web / Serving ---
+streamlit>=1.32.0
 fastapi>=0.111.0
 uvicorn>=0.30.0
-langserve[all]>=0.2.0pip install langchain-groq langchain-huggingface langchain-community pypdf faiss-cpu python-dotenv streamlit
+langserve[all]>=0.2.0
