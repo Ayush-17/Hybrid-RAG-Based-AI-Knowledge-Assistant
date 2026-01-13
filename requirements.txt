@@ -1,0 +1,19 @@
+# --- Framework & API ---
+langchain>=0.3.0
+langchain-groq>=0.1.9
+langchain-community>=0.2.15
+langchain-huggingface>=0.0.3
+langchain-text-splitters
+
+# --- Document Processing & Vector DB ---
+pypdf>=4.0.0
+faiss-cpu>=1.7.4
+sentence-transformers>=3.0.0
+
+# --- Environment & Utils ---
+python-dotenv>=1.0.0
+
+# --- Optional for Web Serving ---
+fastapi>=0.111.0
+uvicorn>=0.30.0
+langserve[all]>=0.2.0pip install langchain-groq langchain-huggingface langchain-community pypdf faiss-cpu python-dotenv streamlit
