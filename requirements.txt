@@ -1,20 +1,13 @@
-# --- Framework & API ---
-langchain>=0.3.0
-langchain-groq>=0.1.9
-langchain-community>=0.2.15
-langchain-huggingface>=0.0.3
+streamlit
+python-dotenv
+langchain
+langchain-groq
+langchain-community
+langchain-huggingface
 langchain-text-splitters
-
-# --- Document Processing & Vector DB ---
-pypdf>=4.0.0
-faiss-cpu>=1.7.4
-sentence-transformers>=3.0.0
-
-# --- Environment & Utils ---
-python-dotenv>=1.0.0
-
-# --- Web / Serving ---
-streamlit>=1.32.0
-fastapi>=0.111.0
-uvicorn>=0.30.0
-langserve[all]>=0.2.0
+langchain-core
+faiss-cpu
+pypdf
+sentence-transformers
+torch
+transformers
